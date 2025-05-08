@@ -124,7 +124,7 @@ void loop() {
         Serial.println("No se pudo obtener la hora.");
       }
     } else {
-      Serial.println("No detecta nada");
+      Serial.println("Corte de señal");
       digitalWrite(ledRojo, HIGH);
       digitalWrite(ledVerde, LOW);
     }
